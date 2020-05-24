@@ -1,0 +1,33 @@
+https://ibighit.com/bts/eng/ - страница, которую я взяла
+
+firstChild
+
+alert( "firstChild: " + document.body.firstChild )
+
+ nextSibling
+
+alert( "nextSibling: " + document.querySelector("body > div.wrapper").nextSibling )
+
+ lastElementChild
+
+alert( "lastElementChild: " + document.body.lastElementChild )
+
+ Класс
+
+alert( "class: " + document.getElementsByClassName('wrapper') )
+
+ Id
+
+alert( "id: " + document.getElementById('artist') )
+
+ Элемент внутри элемента
+
+alert( "elementInside: " + document.querySelectorAll('footer > position') )
+
+ Селектор на атрибут
+
+alert( "attribute: " + document.body.getAttribute('class') )
+
+ Псевдокласс
+
+alert( "psevdoClass: " + document.querySelectorAll(':hover') )
